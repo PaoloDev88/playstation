@@ -9,14 +9,6 @@ body{
     left: 0;
 } */
 
-h2{
-    font-size: 40px;
-}
-
-.white{
-    color: white;
-}
-
 a{
     text-decoration: none;
     color: white;
@@ -28,6 +20,22 @@ a{
 }
 
 a:hover{
+    color: white;
+}
+
+.bRadius15{
+    border-radius: 15px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.saturateDown{
+    filter: saturate(75%)
+}
+
+.white{
     color: white;
 }
 
@@ -49,13 +57,9 @@ header nav{
     border-bottom: 1px solid grey;
 }
 
-/* section.heroReturnal{
-    height: 590px;
-    background-image: url(../img/returnal-hero-banner-logo.png);
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-} */
+section.heroReturnal{
+    background-color: white;
+}
 
 section.heroReturnal figure.backGround>img{
     height: 590px;
