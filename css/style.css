@@ -1,3 +1,77 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* header{
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+
+h2{
+    font-size: 40px;
+}
+
+.white{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #cd3d0f;
+    border-radius: 30px;
+    padding: 9px 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+a:hover{
+    color: white;
+}
+
+header, section, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header section.logo{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+header nav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+/* section.heroReturnal{
+    height: 590px;
+    background-image: url(../img/returnal-hero-banner-logo.png);
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+} */
+
+section.heroReturnal figure.backGround>img{
+    height: 590px;
+}
+
+section.heroReturnal figure img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+section.heroReturnal figure{
+    position: relative;
+}
+
+section.heroReturnal figure .layOver{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    width: 100%;
+}
