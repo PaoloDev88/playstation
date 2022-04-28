@@ -31,6 +31,10 @@ h2 span{
     background-color: #1f1f1f;
 }
 
+.bgColorBlue{
+    background-color: #161c3b;
+}
+
 .bgColorLightGrey{
     background-color: #bebcbb;
 }
@@ -112,10 +116,14 @@ section.consoleUpSell span{
     font-weight: 600;
 }
 
-section.consoleUpSell p{
+section.consoleUpSell p, section.discounts p{
     color: #5e5d5d;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
+}
+
+section.consoleUpSell p.fSize19{
+    font-size: 19px;
 }
 
 section.consoleUpSell a{
@@ -149,8 +157,18 @@ section.playStationPlus a{
     color: #3469e6;
 }
 
-section.playStationPlus img.psPlusLogo{
+section.playStationPlus img.psPlusLogo, section.playStationNow img.psNowLogo{
     width: 60%;
+}
+
+section.playStationNow{
+    color: #f5f5f5;
+}
+
+section.playStationNow a{
+    background-color: #f5f5f5;
+    color: black;
+    font-weight: 500;
 }
 
 @media screen and (max-width:767px){
