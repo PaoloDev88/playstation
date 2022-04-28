@@ -27,16 +27,20 @@ a:hover{
     border-radius: 15px;
 }
 
+.opacityDown{
+    filter: opacity(75%);
+}
+
 h2{
     font-size: 40px;
 }
 
-.saturateDown{
-    filter: saturate(75%)
+.posRelative{
+    position: relative;
 }
 
-.white{
-    color: white;
+.saturateDown{
+    filter: saturate(75%)
 }
 
 header, section, footer{
@@ -57,7 +61,7 @@ header nav{
     border-bottom: 1px solid grey;
 }
 
-section.heroReturnal{
+.bgColorWhite{
     background-color: white;
 }
 
@@ -70,13 +74,49 @@ section.heroReturnal figure img{
     object-fit: cover;
 }
 
-section.heroReturnal figure{
-    position: relative;
-}
-
 section.heroReturnal figure .layOver{
     position: absolute;
     bottom: 25px;
     left: 15px;
     width: 100%;
+}
+
+section.playStation5 span{
+    color: #0072ce;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section.playStation5 p{
+    color: #5e5d5d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section.playStation5 a{
+    color: white;
+    background-color: #2d64e6;
+}
+
+section.playStation5 .selected{
+    color: black;
+    border-bottom: 2px solid #2d64e6;
+}
+
+section.playStation5 .selected span{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.playStation5 span.unSelected{
+    color: #5e5d5d;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:767px){
+    img.w-50{
+        transform: scale(2);
+    }
 }
