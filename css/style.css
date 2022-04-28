@@ -69,16 +69,16 @@ header nav{
 
 /* fine debug header*/
 
-section.heroReturnal figure.backGround>img{
+section.hero.returnal figure.backGround>img{
     height: 590px;
 }
 
-section.heroReturnal figure img{
+section.hero figure img{
     max-width: 100%;
     object-fit: cover;
 }
 
-section.heroReturnal figure .layOver{
+section.hero figure .layOver{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -118,6 +118,10 @@ section.playStation5 span.unSelected{
     color: #5e5d5d;
     font-size: 16px;
     font-weight: 500;
+}
+
+section.hero.takesTwo figure.backGround>img{
+    height: 620px;
 }
 
 @media screen and (max-width:767px){
