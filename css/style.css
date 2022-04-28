@@ -23,6 +23,10 @@ a:hover{
     color: white;
 }
 
+.bgColorBlack{
+    background-color: #1f1f1f;
+}
+
 .bgColorWhite{
     background-color: white;
 }
@@ -31,12 +35,20 @@ a:hover{
     border-radius: 15px;
 }
 
+.bRadius20{
+    border-radius: 20px;
+}
+
 .opacityDown{
     filter: opacity(75%);
 }
 
 h2{
     font-size: 40px;
+}
+
+h3{
+    font-size: 32px;
 }
 
 .posRelative{
