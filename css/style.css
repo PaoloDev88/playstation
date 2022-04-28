@@ -52,6 +52,8 @@ header, section, footer{
     margin: 0 auto;
 }
 
+/* debug header*/
+
 header section.logo{
     height: 35px;
     width: 100%;
@@ -64,6 +66,8 @@ header nav{
     background-color: white;
     border-bottom: 1px solid grey;
 }
+
+/* fine debug header*/
 
 section.heroReturnal figure.backGround>img{
     height: 590px;
