@@ -31,6 +31,10 @@ h2 span{
     background-color: #1f1f1f;
 }
 
+.bgColorLightGrey{
+    background-color: #bebcbb;
+}
+
 .bgColorWhite{
     background-color: white;
 }
@@ -138,6 +142,15 @@ section.consoleUpSell span.unSelected{
 
 section.hero.takesTwo figure.backGround>img{
     height: 620px;
+}
+
+section.playStationPlus a{
+    background-color: #d9dadc;
+    color: #3469e6;
+}
+
+section.playStationPlus img.psPlusLogo{
+    width: 60%;
 }
 
 @media screen and (max-width:767px){
