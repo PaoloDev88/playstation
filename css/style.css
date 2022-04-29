@@ -176,3 +176,9 @@ section.playStationNow a{
         transform: scale(2);
     }
 }
+
+@media screen and (min-width:576px){
+    section.socials img{
+        max-width: 120px;
+    }
+}
